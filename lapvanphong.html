@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Văn Phòng</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./assets/image/logoweb.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.1-web/css/all.min.css">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separete">
+                            Vào cửa hàng trên ứng dụng
+                            <div class="header__qr">
+                                <img src="./assets/image/QR_Code.png" alt="QR code" class="header_qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/image/GG_Play.png" alt="Google Play" class="header__qr-download-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/image/appStore.png" alt="App Store" class="header__qr-download-img">
+                                    </a>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link"><i
+                                    class=" header__navbar-icon fa-brands fa-facebook"></i></a>
+                            <a href="" class="header__navbar-icon-link"><i
+                                    class=" header__navbar-icon fa-brands fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="" class="header__navbar-item-link">
+                                <i class=" header__navbar-icon fa-solid fa-bell"></i> Thông Báo
+
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông Báo Mới Nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <span> <img src="./assets/image/anhNotify1.png" alt=""
+                                                    class="header__notify-img"></span>
+                                            <div class="header__notify-info">
+                                                <span class="header-notify-name">Khuyến mãi khi mua màn hình GIGABYTE
+                                                    series</span>
+                                                <span class="header__notify-description">Tặng ngay túi đeo chéo
+                                                    AORUS</span>
+                                            </div>
+
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <span> <img src="./assets/image/anhNotify2.png" alt=""
+                                                    class="header__notify-img"></span>
+                                            <div class="header__notify-info">
+                                                <span class="header-notify-name">Laptop Gaming giảm sốc cuối năm</span>
+                                                <span class="header__notify-description">Khuyến mãi lên đến
+                                                    5.000.000</span>
+                                            </div>
+
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <span> <img src="./assets/image/anhNotify3.png" alt=""
+                                                    class="header__notify-img"></span>
+                                            <div class="header__notify-info">
+                                                <span class="header-notify-name">Ghế Gaming chính hãng</span>
+                                                <span class="header__notify-description">Giá chỉ từ 2.500.000</span>
+                                            </div>
+
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class=" header__navbar-icon fa-solid fa-circle-question"></i> Trợ Giúp</a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--bold header__navbar-item--separete">
+                            <a class="header__navbar-item-link header__navbar-item--bold" href="./register.html">Đăng Kí</a>
+
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--bold">
+                            <a class="header__navbar-item-link header__navbar-item--bold" href="./login.html">Đăng Nhập</a>
+
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Header-width-search -->
+                <div class="header-width-search">
+                    <div class="header__logo">
+                        <img src="./assets/image/logoweb.png" alt="logo">
+                    </div>
+                    <div class="header__search">
+                        <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm">
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">
+                                Trong shop
+                            </span>
+                            <i class="header__search-select-icon fa-solid fa-angle-down"></i>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <!-- cart layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class=" header__cart-icon fa-solid fa-cart-shopping"></i>
+                            <span class="header__cart-notice">6</span>
+                            <div class="header__cart-list">
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <!-- Cart item -->
+                                    <li class="header__cart-item">
+                                        <img src="./assets/image/chuot.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Chuột Logitech G102 Lightsync</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">400.000đ</span>
+                                                    <span class="header__cart-item-multiply">x
+													</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Phân loại: Trắng</span>
+                                                <span class="header__cart-item-remove">
+													Xóa
+												</span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/image/chuotKDA.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Chuột Logitech G502 Hero KDA</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">1.590.000đ</span>
+                                                    <span class="header__cart-item-multiply">x
+													</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Phân loại: Trắng</span>
+                                                <span class="header__cart-item-remove">
+													Xóa
+												</span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/image/banphimFulhen.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bàn phím Fuhlen G900L</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">590.000đ</span>
+                                                    <span class="header__cart-item-multiply">x
+													</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Phân loại: Đen</span>
+                                                <span class="header__cart-item-remove">
+													Xóa
+												</span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/image/loadidong.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Loa di động Rapoo A100</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">390.000đ</span>
+                                                    <span class="header__cart-item-multiply">x
+													</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Phân loại: Đen</span>
+                                                <span class="header__cart-item-remove">
+													Xóa
+												</span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/image/oCung.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">HDD WD Black 2TB 7200rpm</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">3.390.000đ</span>
+                                                    <span class="header__cart-item-multiply">x
+													</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Phân loại: Bạc</span>
+                                                <span class="header__cart-item-remove">
+													Xóa
+												</span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/image/pc.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">GVN Titan M</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">9.290.000đ</span>
+                                                    <span class="header__cart-item-multiply">x
+													</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Phân loại: Đen</span>
+                                                <span class="header__cart-item-remove">
+													Xóa
+												</span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+
+
+
+                                </ul>
+                                <a href="#" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fa-solid fa-bars"></i> Danh mục
+                            </h3>
+
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="./index.html" class="category-item__link">Laptop gaming</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="./lapvanphong.html" class="category-item__link">Laptop văn phòng</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="./pcgaming.html" class="category-item__link">PC gaming</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="./manhinh.html" class="category-item__link">Màn hình</a>
+
+                                </li>
+                                <li class="category-item">
+                                    <a href="./main-vga-cpu.html" class="category-item__link">Main - CPU - VGA</a>
+
+                                </li>
+                                <li class="category-item">
+                                    <a href="./ssd-hdd-ram.html" class="category-item__link">SSD - HDD - Ram</a>
+
+                                </li>
+                                <li class="category-item">
+                                    <a href="./banphim.html" class="category-item__link">Bàn phím</a>
+
+                                </li>
+                                <li class="category-item">
+                                    <a href="./chuot.html" class="category-item__link">Chuột</a>
+
+                                </li>
+                                <li class="category-item">
+                                    <a href="./tainghe-loa.html" class="category-item__link">Tai nghe - loa</a>
+
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+
+                            <button class="btn">
+                                <i class="fa-solid fa-credit-card home-filter-icon"></i>
+                                Hướng dẫn thanh toán</button>
+                            <button class="btn">
+                                <i class="fa-solid fa-coins home-filter-icon"></i>
+                                Hướng dẫn trả góp</button>
+                            <button class="btn">
+                                <i class="fa-solid fa-truck-fast home-filter-icon"></i>
+                                Chính sách giao hàng </button>
+                            <button class="btn">
+                                <i class="fa-solid fa-shield home-filter-icon"></i>
+                                Chính sách bảo hành</button>
+
+                        </div>
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <div class="home-product-item">
+
+                                        <div class="home-product-item__img" style="background-image: url(https://gstatic.gearvn.com/2021/08/LNRCls7k-acer_aspire_a315_57g_524z_074bc20fe40c4496890e1df9c1ea9521_large-300x300.jpg);"></div>
+
+                                        <h4 class="home-product-item__name">
+                                            <a style="text-decoration: none; color: var(--text-color);" href="./aspire3.html">   Laptop Acer Aspire 3 A315 57G 524Z</a>
+
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">14.090.000đ</span>
+                                            <span class="home-product-item__price-current">13.000.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">
+                                                10%
+                                            </span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <div class="home-product-item">
+
+                                        <div class="home-product-item__img" style="background-image: url(https://product.hstatic.net/1000026716/product/gearvn-laptop-acer-aspire-5-a515-57-52y2-1_192d36a634be400e88f8b29a54398bc3_large.png);"></div>
+
+                                        <h4 class="home-product-item__name">
+                                            <a style="text-decoration: none; color: var(--text-color);" href="./aspire5.html">  Laptop Acer Aspire 5 A515 57 52Y2</a>
+
+
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">18.990.000đ</span>
+                                            <span class="home-product-item__price-current">15.990.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">
+                                                10%
+                                            </span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <div class="home-product-item">
+
+                                        <div class="home-product-item__img" style="background-image: url(https://gstatic.gearvn.com/2021/07/p713Q53y-GEARVN-laptop-lenovo-ideapad-gaming-3-15arh05-82EY00LMVN-300x300.jpeg);"></div>
+
+                                        <h4 class="home-product-item__name">Laptop Lenovo IdeaPad Gaming 3 15ARH05 82EY00LMVN
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">17.490.000đ</span>
+                                            <span class="home-product-item__price-current">16.886.500đ</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">
+                                                15%
+                                            </span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <div class="home-product-item">
+
+                                        <div class="home-product-item__img" style="background-image: url(https://gstatic.gearvn.com/2021/08/laptop-acer-aspire-3-a315-56-37dv-1_14c2a4369f244da3a18a6a9884da2f0a_2d6425a24d4e40bea850a55c2ff54d59.jpg);"></div>
+
+                                        <h4 class="home-product-item__name">Laptop Acer Aspire 3 A315 56 37DV
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">11.990.000đ</span>
+                                            <span class="home-product-item__price-current">10.490.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">
+                                                13%
+                                            </span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <div class="home-product-item">
+
+                                        <div class="home-product-item__img" style="background-image: url(https://gstatic.gearvn.com/2021/07/GeCTqonL-laptop-gaming-acer-aspire-7-a715-75g-56zl-01-300x300.png);"></div>
+
+                                        <h4 class="home-product-item__name">Laptop Gaming Acer Aspire 7 A715 75G 56ZL
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">20.290.000đ</span>
+                                            <span class="home-product-item__price-current">19.490.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">
+                                                17%
+                                            </span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <div class="home-product-item">
+
+                                        <div class="home-product-item__img" style="background-image: url(https://beta.gearvn.com/wp-content/uploads/2021/05/gearvn-laptop-acer-aspire-3-a315-56-502x-05-300x300.jpg);"></div>
+
+                                        <h4 class="home-product-item__name">Laptop Acer Aspire 3 A315 56 502X
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">12.890.000đ</span>
+                                            <span class="home-product-item__price-current">17.790.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">
+                                                13%
+                                            </span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <div class="home-product-item">
+
+                                        <div class="home-product-item__img" style="background-image: url(https://gstatic.gearvn.com/2021/08/ukbKhVCl-gearvn-ideapad-gaming-3_2-300x300.jpg);"></div>
+
+                                        <h4 class="home-product-item__name">Laptop Lenovo IdeaPad Gaming 3 15ARH05 82EY00LBVN
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">19.990.000đ</span>
+                                            <span class="home-product-item__price-current">18.990.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">
+                                                13%
+                                            </span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <div class="home-product-item">
+
+                                        <div class="home-product-item__img" style="background-image: url(https://gstatic.gearvn.com/2021/08/csKPDR8D-GEARVN-laptop-asus-zenbook-ux425ea-ki429t-300x300.jpeg);"></div>
+
+                                        <h4 class="home-product-item__name">Laptop ASUS ZenBook UX425EA KI429T
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">21.790.000đ</span>
+                                            <span class="home-product-item__price-current">20.490.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">
+                                                15%
+                                            </span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <div class="home-product-item">
+
+                                        <div class="home-product-item__img" style="background-image: url(https://gstatic.gearvn.com/2021/08/llyI9oHF-gearvn-laptop-asus-zenbook-ux425ea-ki439t-9-300x300.jpg);"></div>
+
+                                        <h4 class="home-product-item__name">Laptop ASUS ZenBook UX425EA KI439T
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">28.400.000đ</span>
+                                            <span class="home-product-item__price-current">27.490.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">
+                                                15%
+                                            </span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <div class="home-product-item">
+
+                                        <div class="home-product-item__img" style="background-image: url(https://beta.gearvn.com/wp-content/uploads/2021/03/laptop_msi_modern_14_b10mw_635vn_80d03a9b047c416b85fc033e0b8d0acf_large-300x300.jpg);"></div>
+
+                                        <h4 class="home-product-item__name">LAPTOP MSI Modern 14 B10MW 635VN
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">12.600.000đ</span>
+                                            <span class="home-product-item__price-current">11.490.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">
+                                                13%
+                                            </span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item pagination-item--active">
+                                <a href="" class="pagination-item__link">
+                                  1
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                  2
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                  3
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                  4
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                  5
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                  ...
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                  14
+                                </a>
+                            </li>
+
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung Tâm Trợ Giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Mall</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng Dẫn Mua Hàng</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Về GearCom</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Giới Thiệu Về GearCom</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tuyển Dụng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Điều Khoản GearCom</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Danh mục</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="./index.html" class="footer-item__link">Laptop gaming</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="./lapvanphong.html" class="footer-item__link">Laptop văn phòng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="./pcgaming.html" class="footer-item__link">PC gaming</a>
+
+                            </li>
+                            <li class="footer-item">
+                                <a href="./manhinh.html" class="footer-item__link">Màn hình</a>
+
+                            </li>
+                            <li class="footer-item">
+                                <a href="./main-vga-cpu.html" class="footer-item__link">Main - CPU - VGA</a>
+
+                            </li>
+                            <li class="footer-item">
+                                <a href="./ssd-hdd-ram.html" class="footer-item__link">SSD - HDD - Ram</a>
+
+                            </li>
+                            <li class="footer-item">
+                                <a href="./banphim.html" class="footer-item__link">Bàn phím</a>
+
+                            </li>
+                            <li class="footer-item">
+                                <a href="./chuot.html" class="footer-item__link">Chuột</a>
+
+                            </li>
+                            <li class="footer-item">
+                                <a href="./tainghe-loa.html" class="footer-item__link">Tai nghe - loa</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Theo dõi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fa-brands fa-facebook"></i> Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fa-brands fa-instagram"></i> Instagram
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fa-brands fa-linkedin-in"></i> Linkedin
+                                </a>
+
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                        <div class="footer__download">
+                            <img src="./assets/image/QR_Code.png" alt="Download QR" class="footer__download-qr">
+                            <div class="footer__download-apps">
+                                <img src="./assets/image/GG_Play.png" alt="Google play" class="footer__download-app-img">
+                                <img src="./assets/image/appStore.png" alt="App store" class="footer__download-app-img">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="footer__bottom">
+
+                <div class="grid">
+
+                    <p class="footer__text">2022 - Bản quyền thuộc về GearCom</p>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
